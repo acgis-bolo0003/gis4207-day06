@@ -18,9 +18,9 @@ import os
 scriptFolder = os.path.dirname(os.path.abspath(__file__))
 os.chdir(scriptFolder)
 # MappingEx.mxd file is your exercise folder (e.g. under <dir>\day06\ if script located under <dir>\day06\lab\DragosBandEmilieR\)
-inMDX = r"..\..\MappingEx.mxd"
+inMXD = r"..\..\MappingEx.mxd"
 
-mxd = mapping.MapDocument(inMDX)
+mxd = mapping.MapDocument(inMXD)
 mxd.title = "arcpy.mapping module exercises"
 mxd.author = "Dragos Bologa and Emilie Rabeau"
 mxd.credits = "David Viljoen made me do it"
