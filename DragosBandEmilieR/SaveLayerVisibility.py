@@ -1,6 +1,7 @@
 #-------------------------------------------------------------------------------
 # Name:        SaveLayerVisibility
-# Purpose:
+# Purpose:     Create a tab-delimited file with the data frame names, layer names
+# and the visibility values in a boolean format.
 #
 # Author:      Emilie Rabeau
 #
@@ -13,13 +14,13 @@ import os
 
 visibilityFile = open(r'LayerVisibility.txt', 'w')
 
-mxd = arcpy.mapping.MapDocument(r"..\..\MappingEx.mxd")
+mxd = arcpy.mapping.MapDocument(r"MappingEx.mxd")
 dataFrame = arcpy.mapping.ListDataFrames(mxd)
 
 
 for data in dataFrame:
     layer = arcpy.mapping.ListLayers(data)
     for lyr in layer:
-        visibilityFile.write("{:15}\t {:10}\t {:10}\n".format(data.name, lyr.name, lyr.visible))
+        visibilityFile.write("{}\t {}\t {}\n".format(data.name, lyr.name, lyr.visible))
 
 visibilityFile.close()
