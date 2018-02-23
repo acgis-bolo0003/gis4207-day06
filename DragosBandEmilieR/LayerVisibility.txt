@@ -1,4 +1,4 @@
-Canada	 mjcities	 False
+Canada	 mjcities	 True
 Canada	 mjrroads	 True
 Canada	 province	 False
 World	 World Cities	 False
