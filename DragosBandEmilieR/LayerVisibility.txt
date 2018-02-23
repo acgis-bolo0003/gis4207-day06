@@ -1,25 +1,25 @@
-Canada	 mjcities	 True
-Canada	 mjrroads	 False
+Canada	 mjcities	 False
+Canada	 mjrroads	 True
 Canada	 province	 False
 World	 World Cities	 False
 World	 cities	 False
-World	 Continents	 False
-World	 world30	 True
-World	 continent	 True
-World	 world30	 True
+World	 Continents	 True
+World	 world30	 False
+World	 continent	 False
+World	 world30	 False
 San Francisco	 Census	 True
 San Francisco	 blockgroups	 True
 San Francisco	 censustracts	 False
-San Francisco	 Cultural	 True
-San Francisco	 museums	 True
-San Francisco	 artgalleries	 True
+San Francisco	 Cultural	 False
+San Francisco	 museums	 False
+San Francisco	 artgalleries	 False
 San Francisco	 theatre	 False
-San Francisco	 agencies	 True
-San Francisco	 customers	 True
+San Francisco	 agencies	 False
+San Francisco	 customers	 False
 San Francisco	 pizza	 False
 San Francisco	 stores	 False
 San Francisco	 highways	 False
 San Francisco	 county2	 False
 San Francisco	 zip	 False
-San Francisco	 zipcodes	 True
-San Francisco	 sanfran.tif	 True
+San Francisco	 zipcodes	 False
+San Francisco	 sanfran.tif	 False

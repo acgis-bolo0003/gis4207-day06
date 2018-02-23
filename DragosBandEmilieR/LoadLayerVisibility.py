@@ -1,8 +1,9 @@
 #-------------------------------------------------------------------------------
-# Name:        Loa dLayerVisibility
-# Purpose:
+# Name:        LoadLayerVisibility.py
+# Purpose:     Change the visibility of layers from a script in the Python
+# window within ArcGIS.
 #
-# Author:      Emilie Rabeau
+# Author:      Emilie Rabeau, Dragos Bologa
 #
 # Created:     22-02-2018
 # Copyright:   (c) Emilie Rabeau 2018
@@ -24,4 +25,5 @@ for data in dataframes:
                 lyr.visible = infoSplit[2]
                 arcpy.RefreshActiveView()
                 arcpy.RefreshTOC()
+del mxd
 
