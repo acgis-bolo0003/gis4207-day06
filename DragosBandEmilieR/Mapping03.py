@@ -4,7 +4,7 @@
 # Author:      Dragos_B and Emilie R
 #
 # Created:     21-02-2018
-# Copyright:   (c) mie_r , Dragos_B 2018
+# Copyright:   (c) Dragos_B, Emilie_R, 2018
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
 import arcpy
