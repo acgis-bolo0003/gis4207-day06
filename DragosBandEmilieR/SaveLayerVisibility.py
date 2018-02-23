@@ -20,6 +20,6 @@ dataFrame = arcpy.mapping.ListDataFrames(mxd)
 for data in dataFrame:
     layer = arcpy.mapping.ListLayers(data)
     for lyr in layer:
-        visibilityFile.write("{:15}\t {:10}\t {:10}\n".format(data.name, lyr.name, lyr.visible))
+        visibilityFile.write("{}\t {}\t {}\n".format(data.name, lyr.name, lyr.visible))
 
 visibilityFile.close()

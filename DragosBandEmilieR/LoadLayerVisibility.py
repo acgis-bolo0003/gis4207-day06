@@ -8,26 +8,20 @@
 # Copyright:   (c) Emilie Rabeau 2018
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
-import arcpy
-import os
-
-def main():
-    pass
+mxd = arcpy.mapping.MapDocument("CURRENT")
+dataframes = arcpy.mapping.ListDataFrames(mxd)
+layer = arcpy.mapping.ListLayers(mxd)
 
 visibilityFile = open(r'LayerVisibility.txt', 'r')
-
-mxd = arcpy.mapping.MapDocument("CURRENT")
-dataFrame = arcpy.mapping.ListDataFrames(mxd)
+content = visibilityFile.readlines()
 
 
-for data in dataFrame:
-    layer = arcpy.mapping.ListLayers(data)
+for data in dataframes:
     for lyr in layer:
-        visibilityFile.write("{:15}\t {:10}\t {:10}\n".format(data.name, lyr.name, lyr.visible))
+        for info in content:
+            infoSplit = info.rstrip().split("\t")
+            if data.name == infoSplit[0] and lyr.name == infoSplit[1]:
+                lyr.visible = infoSplit[2]
+                arcpy.RefreshActiveView()
+                arcpy.RefreshTOC()
 
-
-acrpy.RefreshActiveView()
-arcpy.RefreshTOC()
-
-if __name__ == '__main__':
-    main()

@@ -1,25 +1,25 @@
-Canada         	 mjcities  	          0
-Canada         	 mjrroads  	          0
-Canada         	 province  	          1
-World          	 World Cities	          0
-World          	 cities    	          0
-World          	 Continents	          1
-World          	 world30   	          0
-World          	 continent 	          0
-World          	 world30   	          0
-San Francisco  	 Census    	          1
-San Francisco  	 blockgroups	          1
-San Francisco  	 censustracts	          0
-San Francisco  	 Cultural  	          0
-San Francisco  	 museums   	          0
-San Francisco  	 artgalleries	          0
-San Francisco  	 theatre   	          0
-San Francisco  	 agencies  	          0
-San Francisco  	 customers 	          0
-San Francisco  	 pizza     	          0
-San Francisco  	 stores    	          0
-San Francisco  	 highways  	          0
-San Francisco  	 county2   	          0
-San Francisco  	 zip       	          0
-San Francisco  	 zipcodes  	          0
-San Francisco  	 sanfran.tif	          0
+Canada	 mjcities	 True
+Canada	 mjrroads	 False
+Canada	 province	 False
+World	 World Cities	 False
+World	 cities	 False
+World	 Continents	 False
+World	 world30	 True
+World	 continent	 True
+World	 world30	 True
+San Francisco	 Census	 True
+San Francisco	 blockgroups	 True
+San Francisco	 censustracts	 False
+San Francisco	 Cultural	 True
+San Francisco	 museums	 True
+San Francisco	 artgalleries	 True
+San Francisco	 theatre	 False
+San Francisco	 agencies	 True
+San Francisco	 customers	 True
+San Francisco	 pizza	 False
+San Francisco	 stores	 False
+San Francisco	 highways	 False
+San Francisco	 county2	 False
+San Francisco	 zip	 False
+San Francisco	 zipcodes	 True
+San Francisco	 sanfran.tif	 True
