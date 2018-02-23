@@ -23,7 +23,7 @@ for data in dataframes:
             infoSplit = info.rstrip().split("\t")
             if data.name == infoSplit[0] and lyr.name == infoSplit[1]:
                 lyr.visible = infoSplit[2]
-                arcpy.RefreshActiveView()
-                arcpy.RefreshTOC()
+arcpy.RefreshActiveView()
+arcpy.RefreshTOC()
 del mxd
 

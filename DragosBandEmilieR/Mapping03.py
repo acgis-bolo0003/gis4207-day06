@@ -1,6 +1,7 @@
 #-------------------------------------------------------------------------------
 # Name:        Mapping03.py
-#
+# Purpose:     Print a report of the layer information, including x, y
+# coordinates.
 # Author:      Dragos_B and Emilie R
 #
 # Created:     21-02-2018
@@ -10,8 +11,8 @@
 import arcpy
 
 # MappingEx.mxd file is your exercise folder (e.g. under <dir>\day06\ if script located under <dir>\day06\lab\DragosBandEmilieR\)
-inMXD = r"..\..\MappingEx.mxd"
-mxd = arcpy.mapping.MapDocument(inMXD)
+
+mxd = arcpy.mapping.MapDocument("MappingEx.mxd")
 
 print ("{:22}{:19}{}".format("DataFrame", "Scale", "Extent"))
 
