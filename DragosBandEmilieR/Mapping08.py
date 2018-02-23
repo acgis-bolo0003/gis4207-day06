@@ -1,6 +1,7 @@
 #-------------------------------------------------------------------------------
 # Name:        Mapping08.py
-#
+# Purpose: This script will save to pdf to a "temp" folder parallel with "lab".
+# The Dataframe name is the base name for pdf, then append to a file called AllMaps.pdf
 # Author:      Dragos_B and Emilie R
 #
 # Created:     21-02-2018
