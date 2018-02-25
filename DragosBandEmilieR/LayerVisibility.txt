@@ -1,7 +1,7 @@
-Canada	 mjcities	 True
-Canada	 mjrroads	 True
-Canada	 province	 False
-World	 World Cities	 False
+Canada	 mjcities	 False
+Canada	 mjrroads	 False
+Canada	 province	 True
+World	 World Cities	 True
 World	 cities	 False
 World	 Continents	 True
 World	 world30	 False

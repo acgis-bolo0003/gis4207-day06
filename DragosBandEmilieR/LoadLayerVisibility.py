@@ -1,4 +1,4 @@
-#-------------------------------------------------------------------------------
+  #-------------------------------------------------------------------------------
 # Name:        LoadLayerVisibility.py
 # Purpose:     Change the visibility of layers from a script in the Python
 # window within ArcGIS.
