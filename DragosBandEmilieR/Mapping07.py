@@ -21,11 +21,11 @@ os.chdir(scriptPath)
 # print("Absolute path of the current script: "+ os.path.join(os.path.dirname(__file__)))
 
 # Path three levels up from the current script (to get to broken links path):
-three_up =  os.path.abspath(path.join(__file__ ,"../../.."))
+three_up =  os.path.abspath(os.path.join(__file__ ,"../../.."))
 # print("Path three levels up from the current script: "+ three_up)
 
 # Path four levels up from the current script (to get to correct data link path):
-four_up =  os.path.abspath(path.join(__file__ ,"../../../.."))
+four_up =  os.path.abspath(os.path.join(__file__ ,"../../../.."))
 #print("Path four levels up from the current script: "+ four_up)
 
 # List Broken DataSources links:
