@@ -14,9 +14,9 @@ import arcpy
 
 mxd = arcpy.mapping.MapDocument("MappingEx.mxd")
 
-print ("{:22}{:19}{}".format("DataFrame", "Scale", "Extent"))
+print ("{:22}{:19}{}".format("DataFrame", "Scale", "Extent")).rstrip()
 
 for df in arcpy.mapping.ListDataFrames(mxd):
-    print ("{:15}{:15}{:15},{:4},{:4},{:4}\n".format(df.name, int(df.scale), int(df.extent.XMin), int(df.extent.YMin), int(df.extent.XMax), int(df.extent.YMax)))
+    print ("{:15}{:15}{:15},{:4},{:4},{:4}\n".format(df.name, int(df.scale), int(df.extent.XMin), int(df.extent.YMin), int(df.extent.XMax), int(df.extent.YMax))).rstrip()
 
 del mxd
