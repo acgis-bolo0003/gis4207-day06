@@ -26,5 +26,4 @@ for df in arcpy.mapping.ListDataFrames(mxd):
 arcpy.RefreshActiveView()
 arcpy.RefreshTOC()
 
-#mxd.save()
 del mxd
