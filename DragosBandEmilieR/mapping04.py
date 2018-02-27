@@ -27,4 +27,4 @@ arcpy.RefreshActiveView()
 arcpy.RefreshTOC()
 
 #mxd.save()
-#del mxd
+del mxd
